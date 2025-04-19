@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* Animaciones */
+[data-aos] {
+    opacity: 0;
+    transition-property: opacity, transform;
+  }
+  
+  [data-aos="fade-up"] {
+    transform: translateY(20px);
+    transition-duration: 1s;
+  }
+  
+  [data-aos].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Ajustes de imágenes y texto */
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1, h2 {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  /* Estilo de imagen circular */
+  img {
+    border-radius: 50%;
+  }
+  
+  section {
+    padding: 4rem 2rem;
+  }
+  
+  footer {
+    background-color: #1a202c;
+  }
+  

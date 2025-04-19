@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pame - Murales y Arte</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-poppins">
+  <!-- Header Section -->
+<header class="relative text-center py-24 px-8 bg-gray-100 rounded-b-xl shadow-md" data-aos="fade-down" data-aos-duration="1000">
+  <!-- Filtro de fondo con gradiente suave y calmado -->
+  <div class="absolute inset-0 bg-gradient-to-r from-teal-100 via-purple-100 to-pink-100 opacity-60"></div> 
+
+  <div class="relative z-10 flex flex-col justify-center items-center gap-6">
+    <img src="./pame-profile.png" alt="Foto de Pame" class="w-40 h-40 object-cover rounded-full border-4 border-teal-500 shadow-xl transition-all duration-500 transform hover:scale-110" data-aos="zoom-in" data-aos-duration="1200">
+    <h1 class="text-5xl sm:text-6xl font-bold font-playfair text-gray-800 mt-6 drop-shadow-lg" data-aos="fade-up" data-aos-duration="1500">
+      ¡Hola, soy Pame :)
+    </h1>
+  </div>
+
+  <div class="mt-10 max-w-4xl mx-auto text-center relative z-10">
+    <p class="text-xl text-gray-800 font-semibold" data-aos="fade-up" data-aos-duration="1500">
+      A través de mi trabajo, busco conectar con las personas y enriquecer cada espacio con arte vibrante y expresivo.
+    </p>
+    <p class="text-xl text-gray-800 mt-6" data-aos="fade-up" data-aos-duration="1800">
+      Te invito a conocer mis pinturas, murales, cerámicas y talleres. ¡Bienvenido/a a mi mundo creativo!
+    </p>
+  </div>
+</header>
+
+
+    <!-- Galería de Murales -->
+    <section class="py-24 text-center" data-aos="fade-up" data-aos-duration="1200">
+      <h2 class="text-4xl font-semibold text-gray-800 mb-12">Mis Murales</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 px-6">
+        <div class="overflow-hidden rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out" data-aos="flip-left" data-aos-duration="1000">
+          <img src="./obra1.png" alt="Mural 1" class="w-full h-full object-cover">
+        </div>
+        <div class="overflow-hidden rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out" data-aos="flip-left" data-aos-duration="1200">
+          <img src="./obra2.png" alt="Mural 2" class="w-full h-full object-cover">
+        </div>
+        <div class="overflow-hidden rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out" data-aos="flip-left" data-aos-duration="1400">
+          <img src="./obra3.png" alt="Mural 3" class="w-full h-full object-cover">
+        </div>
+      </div>
+    </section>
+
+<!-- TALLERES ✨ -->
+<section class="py-24 text-center bg-[url('./bg-textura.jpg')] bg-cover bg-center bg-fixed bg-no-repeat">
+  <h2 class="text-5xl font-bold text-gray-700 drop-shadow-xl mb-16 tracking-wide uppercase" data-aos="fade-up" data-aos-duration="1200">
+    Talleres ✨
+  </h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto px-6">
+
+    <!-- Tarjeta 1 -->
+    <div class="bg-white/90 backdrop-blur-sm rounded-[2rem] shadow-xl p-10 border-4 border-teal-300 border-dashed hover:scale-[1.03] hover:shadow-2xl transition duration-300 ease-in-out hover:border-solid" data-aos="fade-up" data-aos-duration="1000">
+      <img src="./taller1.jpg" alt="Taller 1" class="w-full h-56 object-cover rounded-xl shadow-md mb-6 border-2 border-white">
+      <div class="text-5xl text-teal-600 mb-4">
+        <i class="fas fa-paint-brush"></i>
+      </div>
+      <p class="text-xl text-gray-800 italic font-playfair mb-4 leading-relaxed">"El taller de murales que Pame organizó fue una experiencia increíble."</p>
+      <p class="text-lg font-semibold text-gray-900">María López</p>
+      <p class="text-sm text-gray-600">Participante</p>
+    </div>
+
+    <!-- Tarjeta 2 -->
+    <div class="bg-white/90 backdrop-blur-sm rounded-[2rem] shadow-xl p-10 border-4 border-pink-300 border-dashed hover:scale-[1.03] hover:shadow-2xl transition duration-300 ease-in-out hover:border-solid" data-aos="fade-up" data-aos-duration="1200">
+      <img src="./taller2.jpg" alt="Taller 2" class="w-full h-56 object-cover rounded-xl shadow-md mb-6 border-2 border-white">
+      <div class="text-5xl text-pink-500 mb-4">
+        <i class="fas fa-mug-hot"></i>
+      </div>
+      <p class="text-xl text-gray-800 italic font-playfair mb-4 leading-relaxed">"Los talleres de cerámica son muy completos. ¡Una experiencia única!"</p>
+      <p class="text-lg font-semibold text-gray-900">Pedro Martínez</p>
+      <p class="text-sm text-gray-600">Participante</p>
+    </div>
+
+    <!-- Tarjeta 3 -->
+    <div class="bg-white/90 backdrop-blur-sm rounded-[2rem] shadow-xl p-10 border-4 border-yellow-300 border-dashed hover:scale-[1.03] hover:shadow-2xl transition duration-300 ease-in-out hover:border-solid" data-aos="fade-up" data-aos-duration="1400">
+      <img src="./taller3.jpg" alt="Taller 3" class="w-full h-56 object-cover rounded-xl shadow-md mb-6 border-2 border-white">
+      <div class="text-5xl text-yellow-500 mb-4">
+        <i class="fas fa-palette"></i>
+      </div>
+      <p class="text-xl text-gray-800 italic font-playfair mb-4 leading-relaxed">"Pame es increíblemente talentosa y su enfoque es muy personal."</p>
+      <p class="text-lg font-semibold text-gray-900">José Ramírez</p>
+      <p class="text-sm text-gray-600">Participante</p>
+    </div>
+
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="bg-[url('./bg-textura.jpg')] bg-cover bg-center bg-fixed bg-no-repeat text-white py-16 mt-24 relative z-10">
+      <div class="max-w-6xl mx-auto px-6 text-center" data-aos="fade-up" data-aos-duration="1200">
+        
+        <h3 class="text-3xl font-bold tracking-wide mb-6 drop-shadow-md">Gracias por ser parte del arte 🎨</h3>
+        
+        <p class="text-lg mb-8 font-light text-white/80 max-w-2xl mx-auto leading-relaxed">
+          Conectemos a través del color, la forma y las emociones. Seguime en redes o escribime para más info sobre talleres, obras y colaboraciones.
+        </p>
+    
+        <!-- Redes sociales -->
+        <div class="flex justify-center gap-8 text-3xl mb-8">
+          <a href="https://www.instagram.com" target="_blank" class="hover:text-pink-400 transition duration-300">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/XXXXXXXXXXX" target="_blank" class="hover:text-green-400 transition duration-300">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="mailto:tuemail@ejemplo.com" class="hover:text-yellow-300 transition duration-300">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+    
+        <!-- Línea divisoria -->
+        <div class="border-t border-white/20 pt-6 mt-6 text-sm text-white/60 font-light">
+          © 2025 Pame Artística. Todos los derechos reservados.
+        </div>
+    
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script src="src/main.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
